@@ -101,7 +101,7 @@ export default {
                 body: dataJson
             });
 
-            // Retorna a requisição enviada 
+            //Retorna a requisição enviada 
             const res = await req.json();
 
             // colocar msg no sistema
